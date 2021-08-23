@@ -1,4 +1,4 @@
-# C#--Kanban-Board
+# C Sharp-- Kanban-Board
 Update 18/05/21: Milestone 2 final project files.  
 You may see 'Milestone2 - Changes explanation' for desgin changes and additional features.
 Update 19/05/21: fixed add task bug, load data bug, integrated service column use in InProgressTasks
