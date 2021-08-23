@@ -1,0 +1,24 @@
+﻿<Window x:Class="Frontend.View.AddColumnWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frontend.View"
+        mc:Ignorable="d"
+        Title="AddColumnWindow" Height="250" Width="400">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Label Height="25" Width="120" Content="Column Name: "></Label>
+                <TextBox Height="25" Width="250" Text="{Binding Path=ColName}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Height="25" Width="120" Content="Column Ordinal: "></Label>
+                <TextBox Height="25" Width="250" Text="{Binding Path=Ordinal}"></TextBox>
+            </StackPanel>
+            <Button Width="150" Content="Add Column" Click="AddColumn_Button"></Button>
+            <Button Width="150" Content="Back" Click="Back_Button"></Button>
+            <Label Content="{Binding Path=MSG.Message, Mode=OneWay}" Foreground="{Binding Path=MSG.MsgColor, Mode=OneWay}" HorizontalAlignment="Center" Height="40"/>
+        </StackPanel>
+    </Grid>
+</Window>

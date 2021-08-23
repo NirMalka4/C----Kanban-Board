@@ -1,0 +1,138 @@
+2021-06-20 00:14:00,390 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:14:00,558 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data loading has been failed since : SQL logic error
+no such table: Boards
+2021-06-20 00:21:39,482 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:21:39,666 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data loading has been failed since : SQL logic error
+no such table: Boards
+2021-06-20 00:22:01,210 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.UserService - unknown error
+Insert user: nirmalka@gmail.com has been failed since:SQL logic error
+no such table: Users.
+2021-06-20 00:22:27,731 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:22:27,896 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data has been loaded successfully.
+2021-06-20 00:22:41,648 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.UserService - User: test@gmail.com has been successfully registered
+2021-06-20 00:22:43,645 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.UserService - User: test@gmail.com has been successfully logged in
+
+2021-06-20 00:22:43,648 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: test@gmail.com call has been succeeded. 
+2021-06-20 00:22:54,080 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board: GuyShtaerHamelch created by:test@gmail.com has been successfully added
+2021-06-20 00:22:54,081 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: test@gmail.com call has been succeeded. 
+2021-06-20 00:23:03,244 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:03,247 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:03,247 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:17,254 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - AddColumn call via user: test@gmail.com has been failed because:  Ordinal: 4 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:23:21,841 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: LiftIsShit has been added to board: GuyShtaerHamelch of user: test@gmail.com.
+2021-06-20 00:23:21,843 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:21,844 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:21,844 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:21,844 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:23:30,361 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 3 has been removed from board: GuyShtaerHamelch of user: test@gmail.com.
+2021-06-20 00:24:58,120 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 1 has been removed from board: GuyShtaerHamelch of user: test@gmail.com.
+2021-06-20 00:25:00,133 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:05,931 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because: Can not delete column: 0 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:25:09,539 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:09,950 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:10,204 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:10,348 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:21,920 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:22,247 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:22,394 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:29,140 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because: Can not delete column: 0 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:25:35,932 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:36,401 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:45,809 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:47,806 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:48,218 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:54,661 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - MoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 3 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:57,385 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:25:57,828 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: test@gmail.com has been failed because:  Ordinal: 2 exceed board: GuyShtaerHamelch of user: test@gmail.com limits.
+2021-06-20 00:26:39,864 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:26:39,864 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:27:07,503 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.UserService - User: test@gmail.com logged out successfully
+2021-06-20 00:27:07,512 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:27:07,528 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data has been loaded successfully.
+2021-06-20 00:33:10,520 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:33:11,353 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data has been loaded successfully.
+2021-06-20 00:33:18,324 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.UserService - User: aa@aa.aa has been successfully registered
+2021-06-20 00:33:19,566 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.UserService - User: aa@aa.aa has been successfully logged in
+
+2021-06-20 00:33:19,570 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:33:22,525 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board: 123 created by:aa@aa.aa has been successfully added
+2021-06-20 00:33:22,526 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:33:25,169 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:25,172 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:25,172 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:30,175 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 123 has been added to board: 123 of user: aa@aa.aa.
+2021-06-20 00:33:30,176 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:30,176 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:30,176 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:30,176 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:33:40,090 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123 of user: aa@aa.aa.
+2021-06-20 00:33:42,419 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: aa@aa.aa has been failed because:  Ordinal: 3 exceed board: 123 of user: aa@aa.aa limits.
+2021-06-20 00:34:23,994 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:34:24,335 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data has been loaded successfully.
+2021-06-20 00:34:29,765 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.UserService - User: aa@aa.aa has been successfully logged in
+
+2021-06-20 00:34:29,770 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:34:31,212 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:31,215 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:31,215 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:36,265 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - AddColumn call via user: aa@aa.aa has been failed because:  Ordinal: 3 exceed board: 123 of user: aa@aa.aa limits.
+2021-06-20 00:34:39,191 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 123 has been added to board: 123 of user: aa@aa.aa.
+2021-06-20 00:34:39,191 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:39,191 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:39,191 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:39,191 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:34:43,820 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123 of user: aa@aa.aa.
+2021-06-20 00:34:46,069 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123 of user: aa@aa.aa.
+2021-06-20 00:34:49,285 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: aa@aa.aa has been failed because: Can not delete column: 1 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:35:01,869 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:35:02,137 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data has been loaded successfully.
+2021-06-20 00:35:08,184 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.UserService - User: aa@aa.aa has been successfully logged in
+
+2021-06-20 00:35:08,188 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:35:09,797 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:35:09,800 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:35:27,260 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board:123 created by: aa@aa.aa has been successfully removed
+2021-06-20 00:35:34,337 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board: 123123 created by:aa@aa.aa has been successfully added
+2021-06-20 00:35:34,337 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:35:36,885 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board:123123 created by: aa@aa.aa has been successfully removed
+2021-06-20 00:35:40,080 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board: 123123 created by:aa@aa.aa has been successfully added
+2021-06-20 00:35:40,080 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:35:50,369 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:35:50,369 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:35:50,369 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:37:18,033 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 123 has been added to board: 123123 of user: aa@aa.aa.
+2021-06-20 00:37:18,036 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:37:18,036 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:37:18,036 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:37:18,036 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:37:24,515 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123123 of user: aa@aa.aa.
+2021-06-20 00:37:27,438 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123123 of user: aa@aa.aa.
+2021-06-20 00:38:55,374 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Starting log!
+2021-06-20 00:38:55,765 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Data has been loaded successfully.
+2021-06-20 00:39:01,673 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.UserService - User: aa@aa.aa has been successfully logged in
+
+2021-06-20 00:39:01,678 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:39:07,080 [1] DEBUG IntroSE.Kanban.Backend.ServiceLayer.Service - Board: 123 created by:aa@aa.aa has been successfully added
+2021-06-20 00:39:07,080 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetMyBoards via user: aa@aa.aa call has been succeeded. 
+2021-06-20 00:39:09,361 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:09,365 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:09,366 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:14,542 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - AddColumn call via user: aa@aa.aa has been failed because:  Ordinal: 3 exceed board: 123 of user: aa@aa.aa limits.
+2021-06-20 00:39:17,344 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 123 has been added to board: 123 of user: aa@aa.aa.
+2021-06-20 00:39:17,346 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:17,346 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:17,346 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:17,347 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:22,071 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123 of user: aa@aa.aa.
+2021-06-20 00:39:24,070 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 2 has been removed from board: 123 of user: aa@aa.aa.
+2021-06-20 00:39:26,110 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: aa@aa.aa has been failed because: Can not delete column: 1 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:39:28,685 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: aa@aa.aa has been failed because: Can not delete column: 1 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:39:39,047 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: aa@aa.aa has been failed because: Can not delete column: 0 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:39:39,664 [1] ERROR IntroSE.Kanban.Backend.ServiceLayer.Service - RemoveColumn call via user: aa@aa.aa has been failed because: Can not delete column: 0 as board must contain at least 2 columns.currently has: 2.
+2021-06-20 00:39:45,680 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:45,680 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:49,848 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Column: 123 has been added to board: 123123 of user: aa@aa.aa.
+2021-06-20 00:39:49,849 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:49,850 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:39:49,850 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - GetColumn call has been succeeded. 
+2021-06-20 00:40:01,942 [1] INFO IntroSE.Kanban.Backend.ServiceLayer.Service - Task: asdasd created by: aa@aa.aa located at:123123 has been successfully added

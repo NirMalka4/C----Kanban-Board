@@ -1,0 +1,31 @@
+﻿<Window x:Class="Frontend.View.InProgressTasksView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Frontend.View"
+        mc:Ignorable="d"
+        Title="InProgressTasksView" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+            </StackPanel>
+            <ListBox Height="250" Width="150" ItemsSource="{Binding Path=UserM.MyTasks.Tasks, Mode=TwoWay}" SelectedItem="{Binding Path=SelectedTask, Mode=TwoWay}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical" >
+                            <Border BorderBrush="{Binding Path=BorderColor}" BorderThickness="1">
+                                <TextBox Background="{Binding Path=BackgroundColor}" Text="{Binding Path=Title, Mode=TwoWay}" />
+                            </Border>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <Button Width="100" Content="View Task" Click="ViewTask_Button" IsEnabled="{Binding Path=EnableForward,Mode=OneWay}"></Button>
+            <Button Width="100" Content="Update Task" Click="UpdateTask_Button" IsEnabled="{Binding Path=EnableForward,Mode=OneWay}"></Button>
+            <Button Width="100" Content="Advance Task" Click="AdvanceTask_Button" IsEnabled="{Binding Path=EnableForward,Mode=OneWay}"></Button>
+            <Button Width="100" Content="Back" Click="Back_Button"/>
+            <Label Content="{Binding Path=MSG.Message, Mode=OneWay}" Foreground="{Binding Path=MSG.MsgColor, Mode=OneWay}" HorizontalAlignment="Center" Height="40"/>
+        </StackPanel>
+    </Grid>
+</Window>
