@@ -1,0 +1,26 @@
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\bin\Debug\net5.0\log4net.config
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.deps.json
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\bin\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\Backend.csprojAssemblyReference.cache
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\nirma\יש עתיד\סמסטר ד\מבוא להנדסת תוכנה\Git_Repo\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\Backend.csproj.AssemblyReference.cache
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\Backend.AssemblyInfoInputs.cache
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\Backend.AssemblyInfo.cs
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\bin\Debug\net5.0\log4net.config
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.deps.json
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\bin\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\bin\Debug\net5.0\IntroSE.Kanban.Backend.pdb
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.dll
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\ref\IntroSE.Kanban.Backend.dll
+C:\Users\hagai\Documents\YEAR 1 SEMESTER 2\intro to software enginiering\milestone3\milestone1-net\Backend\obj\Debug\net5.0\IntroSE.Kanban.Backend.pdb
